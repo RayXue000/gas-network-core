@@ -26,5 +26,5 @@ tables, SCADA data, private reports, UI or complete application is included.
 Results of the example are numerical checks, not field validation or an
 engineering design recommendation. Input units are indicated in the code.
 
-[Academic homepage](https://xrnb2000.github.io/)
-· [Bilingual interactive demonstration](https://xrnb2000.github.io/demos/gas-twin/index.html)
+[Academic homepage](https://rayxue000.github.io/)
+· [Bilingual interactive demonstration](https://rayxue000.github.io/demos/gas-twin/index.html)
