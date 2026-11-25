@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "gas-network-core"
+version = "0.1.0"
+description = "Selected numerical kernels for gas-network pressure modelling"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24", "scipy>=1.10", "networkx>=3.1"]
+[project.optional-dependencies]
+rom = ["scikit-learn>=1.3"]
+test = ["pytest>=8"]
+[tool.setuptools.packages.find]
+where = ["src"]
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
